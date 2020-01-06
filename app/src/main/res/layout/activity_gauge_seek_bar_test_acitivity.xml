@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GaugeSeekBarTestAcitivity">
+
+    <com.algorigo.newsmartchair.ui.custom.gaugeseekbar.GaugeSeekBar
+        android:id="@+id/seekbar1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        app:goalDrawable="@drawable/ic_goal_default"
+        app:layout_constraintBottom_toTopOf="@+id/seekbar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showGoal="true"
+        app:startAngleDegrees="105"
+        app:thumbRadius="16dp"
+        app:trackSplit="4" />
+
+    <com.algorigo.newsmartchair.ui.custom.gaugeseekbar.GaugeSeekBar
+        android:id="@+id/seekbar2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/seekbar3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar1"
+        app:progressWidth="4dp"
+        app:showGoal="false"
+        app:showThumb="false"
+        app:startAngleDegrees="90"
+        app:trackSplit="0"
+        app:trackWidth="4dp" />
+
+    <com.algorigo.newsmartchair.ui.custom.gaugeseekbar.GaugeSeekBar
+        android:id="@+id/seekbar3"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/seekbar4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar2"
+        app:progressAnimationDurationMs="2500"
+        app:showGoal="false"
+        app:startAngleDegrees="100"
+        app:thumbDrawable="@drawable/thumb"
+        app:thumbRadius="16dp"
+        app:trackSplit="3" />
+
+    <com.algorigo.newsmartchair.ui.custom.gaugeseekbar.GaugeSeekBar
+        android:id="@+id/seekbar4"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar3"
+        app:progressAnimation="false"
+        app:showGoal="false"
+        app:startAngleDegrees="100"
+        app:thumbRadius="16dp"
+        app:trackSplit="3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

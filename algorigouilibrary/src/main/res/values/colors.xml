@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="azure">#009bff</color>
+    <color name="brownish_grey">#707070</color>
+    <color name="black_18">#18000000</color>
+
+    <color name="light_sky_blue">#dee2e6</color>
+    <color name="sky_blue">#72c3fc</color>
+    <color name="salmon">#ff6b6b</color>
+    <color name="maize">#ffd43b</color>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AlgorigoUiLibraryApp</string>
+
+    <string name="dialog_test_title">Algorigo Dialog Test</string>
+    <string name="gauge_seekbar_test_title">Guage SeekBar Test</string>
+
+    <string name="dialog_title">Title</string>
+    <string name="dialog_description">Description</string>
+    <string name="child_dialog_title">Child Dialog</string>
+    <string name="child_dialog_text">Child Text</string>
+</resources>

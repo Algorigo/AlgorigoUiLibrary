@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GaugeSeekBar">
+
+        <attr name="startAngleDegrees" format="float" />
+
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+
+        <attr name="trackWidth" format="dimension" />
+        <attr name="trackColor" format="color" />
+        <attr name="trackSplit" format="integer" />
+
+        <attr name="showProgress" format="boolean" />
+        <attr name="progressWidth" format="dimension" />
+        <attr name="progressColor" format="color" />
+        <attr name="useProgressColors" format="boolean" />
+        <attr name="progressColorArray" format="reference" />
+        <attr name="progressLimitArray" format="reference" />
+        <attr name="progressAnimation" format="boolean" />
+        <attr name="progressAnimationDurationMs" format="integer" />
+
+        <attr name="showThumb" format="boolean" />
+        <attr name="thumbRadius" format="dimension" />
+        <attr name="thumbDrawable" format="reference" />
+
+        <attr name="showGoal" format="boolean" />
+        <attr name="goalDrawable" format="reference" />
+        <attr name="activeGoalDrawable" format="reference" />
+        <attr name="goal" format="integer" />
+
+    </declare-styleable>
+
+</resources>

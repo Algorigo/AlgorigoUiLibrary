@@ -1,0 +1,2 @@
+include ':app', ':algorigouilibrary'
+rootProject.name='AlgorigoUiLibraryApp'
